@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Űrlap elemek tesztelése</title>
+    <src href="boostrap.min.css" type="text/css">
+    <src href="/view/basic.css" type="text/css">
+</head>
+
+<body>
+    <h1>Űrlap adatainak kiírás JSON formátumú állományba</h1>
+    <div id="container">
+        <form>
+            <label>Add meg a szöveget</label><input type="text" id="szoveg" name="szovegDoboz"><br>
+            <label>Hány éves a kapitány</label><input type="number" id="szam" name="szamDoboz"><br>
+            <label>Melyik a kedvenced</label>
+            <select id="lista" name="fruits">
+                <option value="alma">Alma</option>
+                <option value="barack">barack</option>
+                <option value="körte">Körte</option>
+            </select><br>
+            <label>Válaszd ki az eseted</label>
+            <input type="radio" id="radio1" name="radioGombok" value="Bali" checked>
+            <label>Bali</label>
+            <input type="radio" id="radio2" name="radioGombok" value="Tátra">
+            <label>Tátra</label>
+            <input type="radio" id="radio3" name="radioGombok" value="Szicília">
+            <label>Szicília</label>
+            </br>
+            <label>Kellett ez neked</label><input type="checkbox" id="jelolo" name="jeloloDoboz" checked><br>
+            <button id="mentesGomb" type="submit">Mentés</button>
+        </form>
+    </div>
+    <script type="text/javascript" src="mentes.js"></script>
+
+</html>
